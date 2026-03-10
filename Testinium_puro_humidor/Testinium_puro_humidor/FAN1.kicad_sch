@@ -1,0 +1,30 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "7f8e3145-b301-43b1-b27e-31ece70f1106")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "FAN1_Duty"
+		(shape input)
+		(at 30.48 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd7fc27b-da8f-4d65-a651-df07ec79fbf6")
+	)
+	(hierarchical_label "FAN1_Enable"
+		(shape input)
+		(at 30.48 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f6340434-3ce8-446f-8586-e23251ed1dc5")
+	)
+)

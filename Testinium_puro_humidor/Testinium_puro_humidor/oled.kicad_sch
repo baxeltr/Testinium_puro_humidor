@@ -1,0 +1,52 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "19539795-d3c8-4853-bee6-7992eb8c1fc9")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "Oled_SCL"
+		(shape input)
+		(at 24.13 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a0a2c65-5523-4b4a-8ce9-9a44c6872e4b")
+	)
+	(hierarchical_label "Oled_GND"
+		(shape input)
+		(at 24.13 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c61c584-4479-4038-9f5b-5b795a7b9cd6")
+	)
+	(hierarchical_label "Oled_3V3"
+		(shape input)
+		(at 24.13 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3799a84-1f6d-4270-840a-39b742f2f74d")
+	)
+	(hierarchical_label "Oled_SDA"
+		(shape input)
+		(at 24.13 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f79ae984-2175-4f5e-9255-2777ed22485d")
+	)
+)
