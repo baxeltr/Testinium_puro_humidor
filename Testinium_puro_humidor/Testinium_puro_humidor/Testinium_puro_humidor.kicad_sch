@@ -897,7 +897,7 @@
 		)
 	)
 	(sheet
-		(at 95.25 30.48)
+		(at 63.5 38.1)
 		(size 30.48 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -913,7 +913,7 @@
 		)
 		(uuid "1d434ca6-d69e-41da-9173-e2e41a6f9795")
 		(property "Sheetname" "sarj"
-			(at 95.25 29.7684 0)
+			(at 63.5 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -922,7 +922,7 @@
 			)
 		)
 		(property "Sheetfile" "sarj.kicad_sch"
-			(at 95.25 46.3046 0)
+			(at 63.5 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1001,8 +1001,8 @@
 		)
 	)
 	(sheet
-		(at 54.61 26.67)
-		(size 29.21 22.86)
+		(at 104.14 38.1)
+		(size 29.21 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1017,7 +1017,7 @@
 		)
 		(uuid "67724700-37f5-45ad-933f-687448631270")
 		(property "Sheetname" "regulator"
-			(at 54.61 25.9584 0)
+			(at 104.14 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1026,7 +1026,7 @@
 			)
 		)
 		(property "Sheetfile" "regulator.kicad_sch"
-			(at 54.61 50.1146 0)
+			(at 104.14 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1035,7 +1035,7 @@
 			)
 		)
 		(pin "3V3" input
-			(at 83.82 38.1 0)
+			(at 133.35 41.91 0)
 			(uuid "f63dbeb3-30bc-41f7-87a9-5994a582cc22")
 			(effects
 				(font
