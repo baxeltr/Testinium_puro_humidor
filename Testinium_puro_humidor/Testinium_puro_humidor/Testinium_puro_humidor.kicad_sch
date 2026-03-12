@@ -5,6 +5,167 @@
 	(uuid "eaf24445-473d-4e1b-a90d-ef2c4a02e74f")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:Buzzer"
+			(pin_names
+				(offset 0.0254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BZ"
+				(at 3.81 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Buzzer"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.635 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -0.635 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Buzzer, polarized"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz resonator ceramic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Buzzer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Buzzer_0_1"
+				(polyline
+					(pts
+						(xy -1.651 1.905) (xy -1.143 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.159) (xy -1.397 1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.175)
+					(mid 3.1612 0)
+					(end 0 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Buzzer_1_1"
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -312,6 +473,301 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_3_Bridged12"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_3_Bridged12"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_3_Bridged12_0_0"
+				(circle
+					(center -3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Bridged12_0_1"
+				(arc
+					(start -3.048 0.508)
+					(mid -1.651 0.9912)
+					(end -0.254 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Bridged12_1_1"
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad_MP"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad_MP"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection as pad named MP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_MP_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_MP_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -416,13 +872,103 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 105.41) (xy 151.13 113.03)
+			(xy 105.41 53.34) (xy 105.41 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ea1226b-a39a-4d72-bb7b-b14f40020622")
+		(uuid "41edf833-c3e4-4804-a946-044393e2ea82")
+	)
+	(wire
+		(pts
+			(xy 157.48 95.25) (xy 166.37 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51431a58-077b-4e6c-ad37-051217b56f92")
+	)
+	(wire
+		(pts
+			(xy 162.56 68.58) (xy 162.56 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65a6afc7-6b97-4444-bbc0-8af9a5928686")
+	)
+	(wire
+		(pts
+			(xy 120.65 105.41) (xy 120.65 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67c1a067-906f-415e-b87e-228508863b2f")
+	)
+	(wire
+		(pts
+			(xy 67.31 88.9) (xy 73.66 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6947b1a1-020a-48ab-9cdf-602d8af99aab")
+	)
+	(wire
+		(pts
+			(xy 139.7 105.41) (xy 139.7 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7377d50d-0654-40a1-bbe0-979324e0aa16")
+	)
+	(wire
+		(pts
+			(xy 95.25 125.73) (xy 82.55 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "911aef53-4fdf-4682-8ee3-a531d78a2713")
+	)
+	(wire
+		(pts
+			(xy 82.55 125.73) (xy 82.55 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a07c1bff-71b2-462d-a142-6ed793a0b73e")
+	)
+	(wire
+		(pts
+			(xy 124.46 105.41) (xy 124.46 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b471f967-ddb7-4dc7-971b-e3af737a5d61")
+	)
+	(wire
+		(pts
+			(xy 67.31 71.12) (xy 67.31 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c52ed6a5-4662-4e95-88d5-fcb79acb7a49")
 	)
 	(wire
 		(pts
@@ -432,401 +978,189 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "7377d50d-0654-40a1-bbe0-979324e0aa16")
+		(uuid "c5f3c750-3ba6-4a96-ac29-5040fd1a533b")
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 151.13 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(wire
+		(pts
+			(xy 162.56 69.85) (xy 166.37 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8455a90-18e1-4080-8aa3-2a0c25eed185")
+	)
+	(wire
+		(pts
+			(xy 157.48 92.71) (xy 166.37 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6e2afcc-015f-40b3-82f1-e912ee954008")
+	)
+	(wire
+		(pts
+			(xy 73.66 71.12) (xy 67.31 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc85bb17-f724-4c76-8950-1877dd4f2412")
+	)
+	(global_label "Power"
+		(shape input)
+		(at 147.32 40.64 180)
 		(fields_autoplaced yes)
-		(uuid "030c68bb-1f15-41aa-999e-c230c0508538")
-		(property "Reference" "#PWR02"
-			(at 151.13 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "GND"
-			(at 151.13 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a54287c-3946-4113-9eea-205ff9b1fbfa")
-		)
-		(instances
-			(project "Testinium_puro_humidor"
-				(path "/eaf24445-473d-4e1b-a90d-ef2c4a02e74f"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 144.78 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "22077045-a3fb-4183-9d5d-c6181d79cc8a")
-		(property "Reference" "R1"
-			(at 142.24 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330R"
-			(at 144.78 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.002 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 144.78 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HHH" ""
-			(at 144.78 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c1bd1fcb-d839-440e-88a8-d01aa5730a6b")
-		)
-		(pin "2"
-			(uuid "75494169-896b-4041-b498-c207bc7cc607")
-		)
-		(instances
-			(project ""
-				(path "/eaf24445-473d-4e1b-a90d-ef2c4a02e74f"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 151.13 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8946dd7f-bd90-4686-81b6-e52345da519b")
-		(property "Reference" "D2"
-			(at 152.4 123.19 90)
+		(uuid "348899a0-78dd-40a0-b3f1-c19481423472")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.7105 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(property "Value" "RedLed"
-			(at 148.59 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 151.13 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 151.13 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HHH" ""
-			(at 151.13 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e25f7c7-5268-4f34-90cd-3c86be23adcf")
-		)
-		(pin "2"
-			(uuid "5a065a7c-97f5-406e-967b-3751c824783a")
-		)
-		(instances
-			(project "Testinium_puro_humidor"
-				(path "/eaf24445-473d-4e1b-a90d-ef2c4a02e74f"
-					(reference "D2")
-					(unit 1)
-				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "Device:R")
-		(at 151.13 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "94d146ce-676a-40b5-95db-ba875a127126")
-		(property "Reference" "R2"
-			(at 148.59 113.03 0)
+	(global_label "5V"
+		(shape input)
+		(at 160.02 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45f711cf-2b0d-43b3-b272-1a60bae7be66")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.3033 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "330R"
-			(at 151.13 119.38 90)
+	)
+	(global_label "Power"
+		(shape input)
+		(at 76.2 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5787df48-f8bd-4f23-8cc1-675240a1cfe2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.5905 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 88.9 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc7d2deb-c8d2-4476-a8d5-8f7c88cc3e72")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.1833 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.352 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 151.13 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HHH" ""
-			(at 151.13 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe79c102-f9d0-4bdd-bc50-c85186b0ecb9")
-		)
-		(pin "2"
-			(uuid "1bd9f0a9-d08e-4c72-aa91-e91eb70d1ec6")
-		)
-		(instances
-			(project "Testinium_puro_humidor"
-				(path "/eaf24445-473d-4e1b-a90d-ef2c4a02e74f"
-					(reference "R2")
-					(unit 1)
-				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 144.78 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a824da05-d40a-423c-9957-3425309f3538")
-		(property "Reference" "D1"
-			(at 142.24 121.92 90)
+	(global_label "5V"
+		(shape input)
+		(at 67.31 71.12 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc1de878-d9f6-4cd4-b2cc-ff7cf6d2278c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.31 65.8367 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "piezzo_vcc"
+		(shape input)
+		(at 153.67 44.45 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dcc24366-dafe-45ef-a8a4-6bb9dd186f82")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.67 57.5952 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(property "Value" "GreenLed"
-			(at 140.97 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 144.78 124.46 0)
+	)
+	(global_label "piezzo_vcc"
+		(shape input)
+		(at 162.56 68.58 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5d3890d-f5e9-4c84-82c1-c00f38d13c68")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.56 55.4348 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 144.78 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 144.78 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HHH" ""
-			(at 144.78 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1562068b-0288-4100-a213-94d2dc58b631")
-		)
-		(pin "2"
-			(uuid "54f2db98-3c76-47c5-adb1-616da256f557")
-		)
-		(instances
-			(project ""
-				(path "/eaf24445-473d-4e1b-a90d-ef2c4a02e74f"
-					(reference "D1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -839,8 +1173,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c5ab8c9f-0278-45c5-8552-17d20972d033")
-		(property "Reference" "#PWR01"
+		(uuid "030c68bb-1f15-41aa-999e-c230c0508538")
+		(property "Reference" "#PWR02"
 			(at 144.78 134.62 0)
 			(effects
 				(font
@@ -885,6 +1219,812 @@
 			)
 		)
 		(pin "1"
+			(uuid "8a54287c-3946-4113-9eea-205ff9b1fbfa")
+		)
+		(instances
+			(project "Testinium_puro_humidor"
+				(path "/eaf24445-473d-4e1b-a90d-ef2c4a02e74f"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Bridged12")
+		(at 82.55 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cc28439-0ed9-4b7f-baba-50a5a83d2901")
+		(property "Reference" "JP2"
+			(at 82.55 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "uv_jump"
+			(at 82.55 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+			(at 82.55 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c716fa33-8bd3-42a8-b946-e50fd42af3a1")
+		)
+		(pin "2"
+			(uuid "73c2d13d-d5a6-4254-8892-a876c0980f51")
+		)
+		(pin "1"
+			(uuid "42a6d2b0-9a68-49b3-bb25-9a5f038f62ad")
+		)
+		(instances
+			(project "Testinium_puro_humidor"
+				(path "/eaf24445-473d-4e1b-a90d-ef2c4a02e74f"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 139.7 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22077045-a3fb-4183-9d5d-c6181d79cc8a")
+		(property "Reference" "R1"
+			(at 137.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330R"
+			(at 139.7 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 137.922 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 139.7 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HHH" ""
+			(at 139.7 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1bd1fcb-d839-440e-88a8-d01aa5730a6b")
+		)
+		(pin "2"
+			(uuid "75494169-896b-4041-b498-c207bc7cc607")
+		)
+		(instances
+			(project ""
+				(path "/eaf24445-473d-4e1b-a90d-ef2c4a02e74f"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Buzzer")
+		(at 160.02 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2259fd91-aff0-4bab-8fe3-d61f0c4757e4")
+		(property "Reference" "BZ1"
+			(at 163.83 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Buzzer"
+			(at 163.83 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 159.385 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 159.385 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Buzzer, polarized"
+			(at 160.02 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cce7af49-1a5c-4e1b-b509-3f63d461d4d1")
+		)
+		(pin "1"
+			(uuid "223b68fb-af09-48dc-9978-354090ab7a02")
+		)
+		(instances
+			(project ""
+				(path "/eaf24445-473d-4e1b-a90d-ef2c4a02e74f"
+					(reference "BZ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(at 274.32 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "37c7d4e1-baf0-4ea7-93ef-4918dbbd2145")
+		(property "Reference" "H1"
+			(at 276.86 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad_MP"
+			(at 274.32 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 274.32 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection as pad named MP"
+			(at 274.32 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "MP"
+			(uuid "b9dbd5f2-ed60-4017-8ee5-c0f2581ca936")
+		)
+		(instances
+			(project ""
+				(path "/eaf24445-473d-4e1b-a90d-ef2c4a02e74f"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(at 252.73 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e14c858-dfff-499e-ba1f-2b731c64c5fe")
+		(property "Reference" "H3"
+			(at 255.27 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad_MP"
+			(at 238.76 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 252.73 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection as pad named MP"
+			(at 252.73 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "MP"
+			(uuid "45f9f202-8134-4c62-8483-7c2fe2076b44")
+		)
+		(instances
+			(project "Testinium_puro_humidor"
+				(path "/eaf24445-473d-4e1b-a90d-ef2c4a02e74f"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 144.78 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8946dd7f-bd90-4686-81b6-e52345da519b")
+		(property "Reference" "D2"
+			(at 146.05 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RedLed"
+			(at 149.86 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HHH" ""
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e25f7c7-5268-4f34-90cd-3c86be23adcf")
+		)
+		(pin "2"
+			(uuid "5a065a7c-97f5-406e-967b-3751c824783a")
+		)
+		(instances
+			(project "Testinium_puro_humidor"
+				(path "/eaf24445-473d-4e1b-a90d-ef2c4a02e74f"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.78 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94d146ce-676a-40b5-95db-ba875a127126")
+		(property "Reference" "R2"
+			(at 142.24 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330R"
+			(at 144.78 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 143.002 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 144.78 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HHH" ""
+			(at 144.78 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe79c102-f9d0-4bdd-bc50-c85186b0ecb9")
+		)
+		(pin "2"
+			(uuid "1bd9f0a9-d08e-4c72-aa91-e91eb70d1ec6")
+		)
+		(instances
+			(project "Testinium_puro_humidor"
+				(path "/eaf24445-473d-4e1b-a90d-ef2c4a02e74f"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Bridged12")
+		(at 153.67 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99271654-6d60-4703-8905-881bf2b70598")
+		(property "Reference" "JP1"
+			(at 153.67 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "piezzo_jump"
+			(at 153.67 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+			(at 153.67 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3ff68b2d-40d4-49d9-a914-2802f7e03130")
+		)
+		(pin "2"
+			(uuid "a716e6eb-7526-4748-97b7-9d9b92034e0e")
+		)
+		(pin "1"
+			(uuid "eadd57f8-3bc8-4b16-956c-ade09e73ecbc")
+		)
+		(instances
+			(project ""
+				(path "/eaf24445-473d-4e1b-a90d-ef2c4a02e74f"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 139.7 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a824da05-d40a-423c-9957-3425309f3538")
+		(property "Reference" "D1"
+			(at 137.16 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GreenLed"
+			(at 135.89 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HHH" ""
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1562068b-0288-4100-a213-94d2dc58b631")
+		)
+		(pin "2"
+			(uuid "54f2db98-3c76-47c5-adb1-616da256f557")
+		)
+		(instances
+			(project ""
+				(path "/eaf24445-473d-4e1b-a90d-ef2c4a02e74f"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(at 265.43 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b91ebbe8-8dda-46a6-8fd2-66c8fc01a8ea")
+		(property "Reference" "H2"
+			(at 267.97 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad_MP"
+			(at 261.62 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 265.43 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection as pad named MP"
+			(at 265.43 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "MP"
+			(uuid "19cf2142-3a2c-4169-825c-ac7d44dd8189")
+		)
+		(instances
+			(project "Testinium_puro_humidor"
+				(path "/eaf24445-473d-4e1b-a90d-ef2c4a02e74f"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5ab8c9f-0278-45c5-8552-17d20972d033")
+		(property "Reference" "#PWR01"
+			(at 139.7 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "27c991d7-f9ec-468f-acfb-48150b461276")
 		)
 		(instances
@@ -897,50 +2037,8 @@
 		)
 	)
 	(sheet
-		(at 63.5 38.1)
-		(size 30.48 15.24)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "1d434ca6-d69e-41da-9173-e2e41a6f9795")
-		(property "Sheetname" "sarj"
-			(at 63.5 37.3884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "sarj.kicad_sch"
-			(at 63.5 53.9246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Testinium_puro_humidor"
-				(path "/eaf24445-473d-4e1b-a90d-ef2c4a02e74f"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 54.61 85.09)
-		(size 29.21 20.32)
+		(at 73.66 86.36)
+		(size 12.7 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -955,7 +2053,7 @@
 		)
 		(uuid "5c9c0f3a-6ea9-4000-af5c-25fa8998a29b")
 		(property "Sheetname" "FAN2"
-			(at 54.61 84.3784 0)
+			(at 73.66 85.6484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -964,7 +2062,7 @@
 			)
 		)
 		(property "Sheetfile" "FAN2.kicad_sch"
-			(at 54.61 105.9946 0)
+			(at 73.66 97.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -973,7 +2071,7 @@
 			)
 		)
 		(pin "FAN2_Duty" input
-			(at 83.82 95.25 0)
+			(at 86.36 92.71 0)
 			(uuid "444b4eeb-1265-4e87-8cd1-d73ecb44912d")
 			(effects
 				(font
@@ -982,14 +2080,14 @@
 				(justify right)
 			)
 		)
-		(pin "FAN2_Enable" input
-			(at 83.82 91.44 0)
-			(uuid "74c24e39-e9b9-4679-9854-e1cc32ef7659")
+		(pin "Fan_VCC" input
+			(at 73.66 88.9 180)
+			(uuid "bb21f78c-0c63-40bc-ba93-8cec9df0b716")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
@@ -1001,7 +2099,7 @@
 		)
 	)
 	(sheet
-		(at 104.14 38.1)
+		(at 95.25 38.1)
 		(size 29.21 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1017,7 +2115,7 @@
 		)
 		(uuid "67724700-37f5-45ad-933f-687448631270")
 		(property "Sheetname" "regulator"
-			(at 104.14 37.3884 0)
+			(at 95.25 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1026,7 +2124,7 @@
 			)
 		)
 		(property "Sheetfile" "regulator.kicad_sch"
-			(at 104.14 53.9246 0)
+			(at 95.25 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1034,14 +2132,34 @@
 				(justify left top)
 			)
 		)
-		(pin "3V3" input
-			(at 133.35 41.91 0)
-			(uuid "f63dbeb3-30bc-41f7-87a9-5994a582cc22")
+		(pin "3V3_esp32" output
+			(at 105.41 53.34 270)
+			(uuid "9d7aacf6-8157-4295-8a2d-1bab4c48e498")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+			)
+		)
+		(pin "5V" input
+			(at 118.11 53.34 270)
+			(uuid "18afcb5f-745d-42d5-9e7b-171e822264f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "7V4" input
+			(at 114.3 53.34 270)
+			(uuid "4c15393f-28b8-4b9c-93ee-fec3989b271f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1053,8 +2171,8 @@
 		)
 	)
 	(sheet
-		(at 166.37 59.69)
-		(size 24.13 19.05)
+		(at 166.37 67.31)
+		(size 17.78 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1069,7 +2187,7 @@
 		)
 		(uuid "745420fc-bc35-43f3-afbe-dcd060b32210")
 		(property "Sheetname" "piezzo"
-			(at 166.37 58.9784 0)
+			(at 166.37 66.5984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1078,12 +2196,32 @@
 			)
 		)
 		(property "Sheetfile" "piezzo.kicad_sch"
-			(at 166.37 79.3246 0)
+			(at 166.37 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "Piezzo_Vcc" input
+			(at 166.37 69.85 180)
+			(uuid "1ab16c46-48a6-4409-ad48-034322804071")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_Piezzo" input
+			(at 166.37 73.66 180)
+			(uuid "c3d355ad-75c8-4917-86ec-e3d082757d2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1130,7 +2268,7 @@
 			)
 		)
 		(pin "UserLed_1" input
-			(at 144.78 105.41 270)
+			(at 139.7 105.41 270)
 			(uuid "19eb77db-a2f2-4b9e-823d-6b8289545662")
 			(effects
 				(font
@@ -1140,8 +2278,58 @@
 			)
 		)
 		(pin "UserLed_2" input
-			(at 151.13 105.41 270)
+			(at 144.78 105.41 270)
 			(uuid "0f9218e1-e599-44a7-888d-60781b56e56a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP32_3V3" output
+			(at 105.41 59.69 90)
+			(uuid "e2f436b7-4bc0-476c-8bf3-64031e45e173")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C0_SCL" input
+			(at 157.48 92.71 0)
+			(uuid "3bef8b1e-e790-45a3-b824-3b272a1fb1a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C0_SDA" input
+			(at 157.48 95.25 0)
+			(uuid "8875efeb-af9f-42d8-9172-4a2c2ed3a19f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SCL" input
+			(at 120.65 105.41 270)
+			(uuid "077e7b59-945d-482d-ac12-f5fb5005cd56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1_SDA" input
+			(at 124.46 105.41 270)
+			(uuid "699e27b4-8da2-492f-a84f-763abcaae3df")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1191,6 +2379,26 @@
 				(justify left top)
 			)
 		)
+		(pin "MCU_UV" input
+			(at 104.14 114.3 90)
+			(uuid "1d8c9703-a9b5-4d30-b7bf-862a08076a19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UV_VCC" input
+			(at 95.25 125.73 180)
+			(uuid "3ebb61d5-0602-44d1-a972-63604d226536")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Testinium_puro_humidor"
 				(path "/eaf24445-473d-4e1b-a90d-ef2c4a02e74f"
@@ -1200,8 +2408,8 @@
 		)
 	)
 	(sheet
-		(at 115.57 114.3)
-		(size 21.59 17.78)
+		(at 114.3 114.3)
+		(size 17.78 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1216,7 +2424,7 @@
 		)
 		(uuid "c1bc02f1-56ff-4a8f-b982-d269aa1d4f4c")
 		(property "Sheetname" "sht31"
-			(at 114.8584 132.08 90)
+			(at 113.5884 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1225,7 +2433,7 @@
 			)
 		)
 		(property "Sheetfile" "sht31.kicad_sch"
-			(at 137.7446 132.08 90)
+			(at 132.6646 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1233,28 +2441,8 @@
 				(justify left top)
 			)
 		)
-		(pin "Sht31_GND" input
-			(at 135.89 114.3 90)
-			(uuid "0af38029-abae-4cbc-8d93-7e22f9b8de41")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Sht31_3V3" input
-			(at 120.65 114.3 90)
-			(uuid "ebaca8a3-de3a-4378-ae0e-4f214bd46d4c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "Sht31_SCL" input
-			(at 124.46 114.3 90)
+			(at 120.65 114.3 90)
 			(uuid "a0fcdfbd-e493-4911-a8f8-437a9a5474d2")
 			(effects
 				(font
@@ -1264,7 +2452,7 @@
 			)
 		)
 		(pin "Sht31_SDA" input
-			(at 129.54 114.3 90)
+			(at 124.46 114.3 90)
 			(uuid "b77cdca1-2778-4c5d-8a53-f78a38151c4a")
 			(effects
 				(font
@@ -1283,7 +2471,7 @@
 	)
 	(sheet
 		(at 166.37 87.63)
-		(size 13.97 12.7)
+		(size 17.78 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1315,26 +2503,6 @@
 				(justify left top)
 			)
 		)
-		(pin "Oled_3V3" input
-			(at 166.37 90.17 180)
-			(uuid "ab7e3b84-8c29-42de-9899-d88010e6dd50")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Oled_GND" input
-			(at 166.37 97.79 180)
-			(uuid "d930aab7-7821-4389-831c-6ab9192683c2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "Oled_SCL" input
 			(at 166.37 92.71 180)
 			(uuid "9415038b-5f0a-448b-a5e5-33f0a2e1ac5b")
@@ -1364,8 +2532,8 @@
 		)
 	)
 	(sheet
-		(at 54.61 59.69)
-		(size 29.21 20.32)
+		(at 73.66 68.58)
+		(size 12.7 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1380,7 +2548,7 @@
 		)
 		(uuid "fef5f3e3-3725-4a70-ae5b-3162558f79bf")
 		(property "Sheetname" "FAN1"
-			(at 54.61 58.9784 0)
+			(at 73.66 67.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1389,7 +2557,7 @@
 			)
 		)
 		(property "Sheetfile" "FAN1.kicad_sch"
-			(at 54.61 80.5946 0)
+			(at 73.66 78.0546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1397,9 +2565,9 @@
 				(justify left top)
 			)
 		)
-		(pin "FAN1_Enable" input
-			(at 83.82 66.04 0)
-			(uuid "e8d07983-21b7-4f43-b201-cc9eb62f7164")
+		(pin "FAN1_Duty" input
+			(at 86.36 74.93 0)
+			(uuid "306f9005-7620-4f49-bc7b-065d7045a9c0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1407,14 +2575,14 @@
 				(justify right)
 			)
 		)
-		(pin "FAN1_Duty" input
-			(at 83.82 69.85 0)
-			(uuid "306f9005-7620-4f49-bc7b-065d7045a9c0")
+		(pin "Fan_VCC" input
+			(at 73.66 71.12 180)
+			(uuid "0c51f8fa-02a7-4319-9b71-93d608911b01")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances

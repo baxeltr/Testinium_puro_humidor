@@ -1068,10 +1068,16 @@
 		(uuid "32a20a7c-7c5e-4b73-b60d-c1b6ac959492")
 	)
 	(junction
-		(at 87.63 36.83)
+		(at 87.63 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "accfd6ec-3275-4f9e-90e6-a20ff86da7a2")
+		(uuid "78320a5d-e6fa-468f-ad04-52fdb2d0e82f")
+	)
+	(junction
+		(at 87.63 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd3c1784-13d5-4f01-b40d-f5a0ad74ca32")
 	)
 	(wire
 		(pts
@@ -1115,17 +1121,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 26.67) (xy 91.44 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "511c799e-630a-415e-8762-2ddc76a186a2")
-	)
-	(wire
-		(pts
-			(xy 91.44 36.83) (xy 87.63 36.83)
+			(xy 91.44 38.1) (xy 87.63 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1135,13 +1131,23 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 29.21) (xy 87.63 26.67)
+			(xy 87.63 29.21) (xy 87.63 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "61a63d9b-8a37-4500-89fd-85dd7af133f0")
+	)
+	(wire
+		(pts
+			(xy 87.63 27.94) (xy 91.44 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a95f49c8-7190-404d-b80a-ca11c4e80697")
 	)
 	(wire
 		(pts
@@ -1185,7 +1191,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 34.29) (xy 91.44 36.83)
+			(xy 91.44 34.29) (xy 91.44 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1281,7 +1287,7 @@
 	)
 	(global_label "Fan1_+"
 		(shape input)
-		(at 91.44 26.67 0)
+		(at 91.44 27.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1291,7 +1297,7 @@
 		)
 		(uuid "a0464cda-e3b7-4389-b2fe-d54df1429cc6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.5613 26.67 0)
+			(at 101.5613 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1303,7 +1309,7 @@
 	)
 	(hierarchical_label "Fan_VCC"
 		(shape input)
-		(at 87.63 26.67 90)
+		(at 87.63 20.32 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1419,7 +1425,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 87.63 33.02 0)
 			(effects
 				(font
@@ -1780,6 +1786,82 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 87.63 24.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4356b1d-9032-4121-b178-9984e3f7946c")
+		(property "Reference" "R25"
+			(at 85.09 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 87.63 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 89.408 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 87.63 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HHH" ""
+			(at 87.63 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0b47eb7-1745-42a2-bca8-be2a795c82de")
+		)
+		(pin "2"
+			(uuid "225c22d1-a95a-425a-a635-95bed8d6f84d")
+		)
+		(instances
+			(project "Testinium_puro_humidor"
+				(path "/eaf24445-473d-4e1b-a90d-ef2c4a02e74f/fef5f3e3-3725-4a70-ae5b-3162558f79bf"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 72.39 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1803,7 +1885,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 72.39 44.958 90)
 			(effects
 				(font
@@ -1879,7 +1961,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 66.548 48.26 90)
 			(effects
 				(font
